@@ -1,5 +1,0 @@
-.vs/
-.dll
-.exe
-bin/
-obj/

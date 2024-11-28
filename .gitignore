@@ -1,0 +1,15 @@
+﻿################################################################################
+# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
+################################################################################
+
+/.vs
+.dll
+/mesLiteOI/bin/Debug/
+/mesLiteOI/bin/Debug/net8.0-windows/mesLiteOI.exe
+/mesLiteOI/bin/Debug/net8.0-windows/mesLiteOI.pdb
+/mesLiteOI/obj/Debug/net8.0-windows/ref/mesLiteOI.dll
+/mesLiteOI/obj/Debug/net8.0-windows/refint/mesLiteOI.dll
+/mesLiteOI/obj/Debug/net8.0-windows
+/mesLiteOI/obj/mesLiteOI.csproj.nuget.dgspec.json
+/mesLiteOI/obj/project.assets.json
+/mesLiteOI/obj/project.nuget.cache
