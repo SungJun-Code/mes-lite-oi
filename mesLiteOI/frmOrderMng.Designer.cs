@@ -52,6 +52,7 @@
             tableLayoutPanel9 = new TableLayoutPanel();
             metroLabel3 = new MetroFramework.Controls.MetroLabel();
             checkedListBox1 = new CheckedListBox();
+            metroButton4 = new MetroFramework.Controls.MetroButton();
             panel1.SuspendLayout();
             metroTile1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)grdMain).BeginInit();
@@ -299,6 +300,7 @@
             tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel6.Controls.Add(metroButton4, 2, 1);
             tableLayoutPanel6.Controls.Add(metroButton3, 1, 1);
             tableLayoutPanel6.Controls.Add(metroButton2, 0, 1);
             tableLayoutPanel6.Controls.Add(metroButton1, 3, 1);
@@ -350,6 +352,7 @@
             metroButton1.TabIndex = 1;
             metroButton1.Text = "조회";
             metroButton1.Theme = MetroFramework.MetroThemeStyle.Light;
+            metroButton1.Click += metroButton1_Click;
             // 
             // tableLayoutPanel8
             // 
@@ -429,6 +432,20 @@
             checkedListBox1.Size = new Size(364, 87);
             checkedListBox1.TabIndex = 4;
             // 
+            // metroButton4
+            // 
+            metroButton4.Dock = DockStyle.Fill;
+            metroButton4.Highlight = true;
+            metroButton4.Location = new Point(185, 26);
+            metroButton4.Name = "metroButton4";
+            metroButton4.Size = new Size(85, 34);
+            metroButton4.Style = MetroFramework.MetroColorStyle.Blue;
+            metroButton4.StyleManager = null;
+            metroButton4.TabIndex = 4;
+            metroButton4.Text = "초기화";
+            metroButton4.Theme = MetroFramework.MetroThemeStyle.Light;
+            metroButton4.Click += metroButton4_Click;
+            // 
             // frmOrderMng
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -484,5 +501,6 @@
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton3;
         private MetroFramework.Controls.MetroButton metroButton2;
+        private MetroFramework.Controls.MetroButton metroButton4;
     }
 }
